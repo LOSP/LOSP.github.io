@@ -12,3 +12,5 @@ LOSP基于Slim的优质流畅源代码开发，合并CM、Mokee、AOKP的一些�
 > Light, 意为精简，也可以认为是光。  
 > 没错，就是要你眼前一亮  
 > —— Light OpenSource Project
+
+欢迎各位用户加入官方QQ群 __102474536__ 一起交流
