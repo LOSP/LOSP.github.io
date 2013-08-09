@@ -1,7 +1,7 @@
 baseurl: /
 pygments: true
 title: Typeblog
-url: http://typeblog.net
+url: http://shandian.us
 paginate: 5
 paginate_path: "page:num"
 markdown:      maruku
