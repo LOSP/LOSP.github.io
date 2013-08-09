@@ -1,6 +1,6 @@
 baseurl: /
 pygments: true
-title: Typeblog
+title: Light OpenSource Project
 url: http://shandian.us
 paginate: 5
 paginate_path: "page:num"
