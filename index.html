@@ -1,0 +1,20 @@
+---
+layout: index
+title: Typeblog
+---
+<div id="primary" class="site-content">
+    <div id="content" role="main">
+        {% for post in paginator.posts %}
+        {% include single.html %}
+        {% endfor %}
+        <nav id="nav-below" class="navigation" role="navigation">
+            {% if paginator.next_page %}
+            <div class="nav-previous alignleft"><a href="{{ paginator.next_page_path }}">← 早期文章</a></div>
+            {% endif %}
+            {% if paginator.previous_page %}
+            <div class="nav-next alignright"><a href="{{ paginator.previous_page_path }}">较新文章 →</a></div>
+            {% endif %}
+        </nav>
+    </div>
+</div>
+{% include sidebar.html %}

@@ -1,0 +1,34 @@
+{% include header.html %}
+<div id="primary" class="site-content">
+    <div id="content" role="main">
+        <article>
+            <header class="entry-header">
+                <h1 class="entry-title">{{ page.title }}</h1>
+            </header>
+            <div class="entry-content">
+            {{ content }}
+            </div>
+            <footer class="entry-meta">
+            这是一个页面
+            </footer>
+        </article>
+    <div id="disqus_thread">
+    </div>
+
+    <script type="text/javascript">
+        var disqus_shortname = 'sdus';
+
+        var disqus_url = "{{ site.url }}{{ page.url }}";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>请打开JavaScript来浏览<a href="http://disqus.com/?ref_noscript">DisQus 评论.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">请等待评论加载</a>
+    </div>
+</div>
+{% include sidebar.html %}
+{% include footer.html %}

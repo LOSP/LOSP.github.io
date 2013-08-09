@@ -1,0 +1,7 @@
+baseurl: /
+pygments: true
+title: Typeblog
+url: http://typeblog.net
+paginate: 5
+paginate_path: "page:num"
+markdown:      maruku

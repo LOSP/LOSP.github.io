@@ -1,0 +1,17 @@
+<div id="secondary" class="widget-area" role="complementary">
+    <aside class="widget">
+        <h3 class="widget-title">友情提醒</h3>
+        <ul>
+            <li>本站在IE8以下浏览器中可能显示不正常</li>
+            <li>推荐使用Chrome访问本站</li>
+        </ul>
+    </aside>
+    <aside class="widget">
+        <h3 class="widget-title">近期文章</h3>
+        <ul>
+            {% for post in site.posts limit:7 %}
+            <li><a href="{{ post.url}}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </aside>
+</div>
