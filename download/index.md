@@ -11,6 +11,6 @@ BETA0.1: <http://pan.baidu.com/share/link?shareid=1381866112&uk=2703971393>
 Recovery: <http://pan.baidu.com/share/link?shareid=2628757371&uk=2703971393>
 
 *__小米手机2全系列(2/2s/电信版/合约机)__*  
-BETA0.2:<http://pan.baidu.com/share/link?shareid=1593212528&uk=2703971393>  
+BETA0.2:<http://pan.baidu.com/share/link?shareid=2572086359&uk=2703971393>  
 BETA0.1: <http://pan.baidu.com/share/link?shareid=1370796416&uk=2703971393>  
 Recovery: <http://pan.baidu.com/share/link?shareid=1548729534&uk=2703971393>  
