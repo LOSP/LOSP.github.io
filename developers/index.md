@@ -6,9 +6,9 @@ Light OpenSource Project遵循Apache License 2.0发布全部的LOSP源代码，�
 
 同步源码：  
 {% highlight sh %}
-repo init -u git://github.com/LOSP/platform_manifest.git -b jellybean
+repo init -u git://github.com/LOSP/platform_manifest.git -b jb43
 repo sync
-repo start jellybean
+repo start jb43
 {% endhighlight %}
 
 提交更改：  
