@@ -17,7 +17,7 @@ repo start jb43
 cd /你的项目路径
 git add -A
 git commit -m "修改说明"
-git push https://github.com/你fork后的路径 jellybean
+git push https://github.com/你fork后的路径 jb43
 {% endhighlight %}
 然后在你的github上对我们发起pull request
 
