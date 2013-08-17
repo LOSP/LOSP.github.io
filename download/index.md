@@ -21,6 +21,6 @@ BETA1.05: <http://pan.baidu.com/share/link?shareid=1066783822&uk=2703971393>
 __1.05有部分代码重构，所以，从1.0及以下版本刷至1.05及以上的，如果出现无限FC，请清空cache__  
 BETA0.2: <http://pan.baidu.com/share/link?shareid=2572086359&uk=2703971393>  
 BETA0.1: <http://pan.baidu.com/share/link?shareid=1370796416&uk=2703971393>  
-MIUI Recovery2.10(卡刷): <http://pan.baidu.com/share/link?shareid=2099739885&uk=2703971393>  
-MIUI Recovery2.10(线刷): <http://pan.baidu.com/share/link?shareid=2101132793&uk=2703971393>  
+MIUI Recovery2.10(卡刷): <http://pan.baidu.com/share/link?shareid=3588513209&uk=2703971393>  
+MIUI Recovery2.10(线刷): <http://pan.baidu.com/share/link?shareid=3590079847&uk=2703971393>  
 MIUI Recovery2.05: <http://pan.baidu.com/share/link?shareid=1548729534&uk=2703971393>  
