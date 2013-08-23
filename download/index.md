@@ -1,6 +1,7 @@
 ---
 layout: nodate
-title: 下载
+title: 下载列表
+subtitle: 心动，不如赶快行动
 ---
 请在以下下载地址列表中，寻找您的机型，并选择正确的版本下载。一般，版本号后面的数字越大，版本越新，且新版本一般排列于旧版本之上。Recovery为MIUI Recovery适配版的卡刷包下载链接。如果Recovery卡刷失败，请尝试提取recovery.img手动线刷，或者尝试使用其他Recovery。  
 BETA1.0之后为4.3，1.0之前为4.2

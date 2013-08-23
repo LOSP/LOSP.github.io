@@ -1,6 +1,7 @@
 ---
 layout: nodate
-title: TODO List
+title: TO-DO List
+subtitle: 一切尽在计划之中
 ---
 修复闹钟BUG\[ __已完成__ \]  
 修复安装界面横屏问题\[ __已完成__ \]  

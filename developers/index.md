@@ -1,6 +1,7 @@
 ---
 layout: nodate
 title: 开发者
+subtitle: 开源，分享，交流
 ---
 Light OpenSource Project遵循Apache License 2.0发布全部的LOSP源代码，所有开发者都可以在我们发布的源码基础上下载、适配、编译、修改。
 

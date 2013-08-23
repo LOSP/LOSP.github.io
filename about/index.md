@@ -1,6 +1,7 @@
 ---
 layout: nodate
 title: 关于
+subtitle: 我们从哪里来，又去向何处
 ---
 Light OpenSource Project，简称LOSP，由喝雪碧的虾发起，是基于Slim源码开发的一个全新的Android分支。
 

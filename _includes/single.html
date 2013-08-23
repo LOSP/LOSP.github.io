@@ -1,13 +1,8 @@
-<article class="post no-results not-found">
-    <header class="entry-header">
-        <h1 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <div class="comments-link"><a href="{{ post.url }}">阅读全文</a></div>
-    </header>
-    <div class="entry-content">
-        <p>{{ post.summary }}</p>
-        [......]
-    </div>
-    <footer class="entry-meta">
-    本条目发表于 {{ post.date | date: "%Y 年 %m 月 %d 日" }}
-    </footer>
-</article>
+      <div class="jumbotron">
+        <div class="container">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.summary }}</p>
+          <p>...</p>
+          <p><a href="{{ post.url }}" class="btn btn-primary btn-lg">阅读全文</a></p>
+        </div>
+      </div>

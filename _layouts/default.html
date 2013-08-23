@@ -1,21 +1,26 @@
 {% include header.html %}
-<div id="primary" class="site-content">
-    <div id="content" role="main">
-        <article>
-            <header class="entry-header">
-                <h1 class="entry-title">{{ page.title }}</h1>
-            </header>
-            <div class="entry-content">
-            {{ content }}
-            </div>
-            <footer class="entry-meta">
-            本条目发表于 {{ page.date | date: "%Y 年 %m 月 %d 日" }}
-            </footer>
-        </article>
-    <div id="disqus_thread">
+    <div class="bs-header" id="bs-header">
+      <div class="container">
+        <h1>博客</h1>
+        <p>关注我们的最新动向</p>
+      </div>
     </div>
+    <br />
+    <div class="container bs-docs-container">
+      <ol class="breadcrumb">
+        <li><a href="{{ site.baseurl }}">LOSP</a></li>
+        <li><a href="{{ site.baseurl }}">博客</a></li>
+        <li class="active">{{ page.title }}</li>
+      </ol>
+      <p><h3>{{ page.title }}</h3></p>
+      <p><span class="label label-info">发表于</span> <span class="label label-default">{{ page.date | date: "%Y 年 %m 月 %d 日" }}</span></p>
+      <br />
+      {{ content }}
+      <br /><br /><br />
+      <div id="disqus_thread">
+      </div>
 
-    <script type="text/javascript">
+      <script type="text/javascript">
         var disqus_shortname = 'sdus';
 
         var disqus_url = "{{ site.url }}{{ page.url }}";
@@ -25,10 +30,8 @@
             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    </script>
-    <noscript>请打开JavaScript来浏览<a href="http://disqus.com/?ref_noscript">DisQus 评论.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">请等待评论加载</a>
+      </script>
+      <noscript>请打开JavaScript来浏览<a href="http://disqus.com/?ref_noscript">DisQus 评论.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">请等待评论加载</a>
     </div>
-</div>
-{% include sidebar.html %}
 {% include footer.html %}

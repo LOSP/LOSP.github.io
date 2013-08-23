@@ -2,19 +2,69 @@
 layout: index
 title: Light OpenSource Project
 ---
-<div id="primary" class="site-content">
-    <div id="content" role="main">
-        {% for post in paginator.posts %}
-        {% include single.html %}
-        {% endfor %}
-        <nav id="nav-below" class="navigation" role="navigation">
-            {% if paginator.next_page %}
-            <div class="nav-previous alignleft"><a href="{{ paginator.next_page_path }}">← 早期文章</a></div>
-            {% endif %}
-            {% if paginator.previous_page %}
-            <div class="nav-next alignright"><a href="{{ paginator.previous_page_path }}">较新文章 →</a></div>
-            {% endif %}
-        </nav>
+    <main class="bs-masthead" id="content" role="main">
+      <div class="container">
+      <h1>Light OpenSource</h1>
+      <p class="lead">准备好了吗？<br />让我们开始一段激动人心的旅程</p>
+      <p>
+        <a href="javascript:showBlog();" class="btn btn-outline-inverse btn-lg">立即开始</a>
+      </p>
+      </div>
+    </main>
+    <div class="bs-header" id="bs-header">
+      <div class="container">
+        <h1>博客</h1>
+        <p>关注我们的最新动向</p>
+      </div>
     </div>
-</div>
-{% include sidebar.html %}
+    <br />
+    <div class="container bs-docs-container" id="containter">
+      <ol class="breadcrumb">
+        <li><a href="{{ site.baseurl }}">LOSP</a></li>
+        <li class="active">博客</li>
+      </ol>
+      {% for post in paginator.posts %}
+      {% include single.html %}
+      {% endfor %}
+      <ul class="pager">
+        {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path }}"><< 较早</a></li>
+        {% endif %}
+        {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path }}">较新 >></a></li>
+        {% endif %}
+      </ul>
+    </div>
+    <script type="text/javascript">
+    function showBlog() {
+        $('#content').fadeOut(500);
+        setTimeout(function(){
+            $('#bs-header').fadeIn(500);
+            // $('#containter').fadeIn(100);
+            document.getElementById('htmlbody').className = '';
+        }, 500);
+        setTimeout(function(){
+            $('#containter').fadeIn(500);
+        }, 500);
+    }
+    </script>
+    {% if paginator.page == 1 %}
+    <script type="text/javascript">
+    function run() {
+        $('#bs-header').hide();
+        $('#containter').hide();
+    }
+    window.onload = run;
+    </script>
+    {% else %}
+    <script type="text/javascript">
+    function run() {
+        $('#content').hide();
+        $('#bs-header').show();
+        $('#containter').show();
+        document.getElementById('htmlbody').className = '';
+    }
+    window.onload = run;
+    </script>
+    {% endif %}
+        
