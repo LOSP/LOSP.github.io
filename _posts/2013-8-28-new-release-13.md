@@ -12,3 +12,6 @@ HALO也被我在此版本中升级到2.0,支持调整大小，风格也有所改
 当然，BUG修复和优化是必不可上的。  
 一张图说明本次更新的功能：  
 ![screenshot]({{ site.baseurl }}res/images/Screenshot_2013-08-28-13-54-32.png)
+
+更新日志: <http://shandian.us/history>  
+下载地址: <http://shandian.us/download>
