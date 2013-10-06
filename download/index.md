@@ -15,11 +15,11 @@ __使用方法：下载本卡刷包模板，然后将Recovery的线刷文件改�
 
 *__小米手机1全系列(1/1s/青春版/1s青春版/电信版/合约机)__*  
 RELEASE 3.10.5: <http://pan.baidu.com/s/1zKOjF>  
-MIUI Recovery 2.10第二版(卡刷): <http://pan.baidu.com/s/1uvji8>
+MIUI Recovery 2.10第二版(线刷): <http://pan.baidu.com/s/1uvji8>
 
 *__小米手机2全系列(2/2s/电信版/合约机)__*  
 RELEASE 3.10.5: <http://pan.baidu.com/s/1kRJML>  
-MIUI Recovery 2.10第二版(卡刷): <http://pan.baidu.com/s/1f2dbL>
+MIUI Recovery 2.10第二版(线刷): <http://pan.baidu.com/s/1f2dbL>
 
 *__Google Nexus 4__*  
 EXPERIMENTAL 3.10.5: <http://pan.baidu.com/s/1stp9a>
