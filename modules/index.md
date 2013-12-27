@@ -10,6 +10,12 @@ subtitle: 只有想不到，没有做不到
 支持黑名单  
 下载[1.0.1]: <http://pan.baidu.com/share/link?shareid=621830787&uk=2703971393>  
 
+*__列表动画__*  
+
+*1.0.1*  
+初始化版本  
+下载[1.0.1]: <http://pan.baidu.com/share/link?shareid=976518559&uk=2703971393>
+
 *__使用说明__*  
 LOSP项目提供的所有外加模块都依赖于 __Xposed框架__ 以正常运行。  
 __Xposed框架__ 是一款能够不修改ROM本身而加载外挂模块以实现从前需要自定义ROM才能实现的功能。  
