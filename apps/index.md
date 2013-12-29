@@ -4,7 +4,7 @@ title: 应用软件
 subtitle: 我们不只做ROM
 ---
 *__FlashBak__*  
-系统要求: Android 4.1 (JellyBean) 及以上
+系统要求: Android 4.1 (JellyBean) 及以上  
 软件简介: FlashBak是一款备份软件，功能全而不臃肿，符合Android Design规则。  
 更新历史:  
 *0.1a*  
