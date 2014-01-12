@@ -26,5 +26,9 @@ subtitle: 我们不只做ROM
 首个正式发布版本  
 优化 全新界面
 
-下载[0.2r]: <http://pan.baidu.com/share/link?shareid=1095326781&uk=2703971393>  
+*0.3a*  
+修复 备份联系人出错  
+优化 界面更和谐流畅
+
+下载[0.3a]: <http://pan.baidu.com/share/link?shareid=1082197061&uk=2703971393>  
 源码: <https://github.com/PeterCxy/FlashBak>
