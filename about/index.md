@@ -5,9 +5,9 @@ subtitle: 我们从哪里来，又去向何处
 ---
 ![poster]({{ site.baseurl }}res/images/poster.png)
 
-Light OpenSource Project，简称LOSP，由喝雪碧的虾发起，是基于Slim源码开发的一个全新的Android分支。
+Light OpenSource Project，简称LOSP，由喝雪碧的虾发起，是基于Android源码开发的一个分支。
 
-LOSP基于Slim的优质流畅源代码开发，汲百家之长，做出自己的特色，提供完美的legacy老设备支持，本地化功能，且拥有比其他开源项目更好的对中国电信的支持，并且将会有更多有趣好玩和本地化的功能加入。
+LOSP致力于保留AOSP原有风味，并对老设备进行适配，让老设备也可以有如同Nexus设备的体验。同时，为了满足喜欢自定义功能的用户，我们还开发了单独的APP与模块，以供用户选用。
 
 喝雪碧的虾于2013年7月30日正式发起LOSP项目，致力做出我们最爱的开源项目
 
