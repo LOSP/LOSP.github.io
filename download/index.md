@@ -6,7 +6,8 @@ subtitle: 心动，不如赶快行动
 请在以下下载地址列表中，寻找您的机型，并选择正确的版本下载。一般，版本号越大，版本越新，且新版本一般排列于旧版本之上。Recovery为MIUI Recovery适配版的卡刷包下载链接。如果Recovery卡刷失败，请尝试提取recovery.img手动线刷，或者尝试使用其他Recovery。  
 
 *__Google服务单刷包(全机型通用)__*  
-__小米手机1/1s刷入Google服务前，请确保系统分区已被调整至500M或以上(精简版需250M)，否则可能导致刷入失败或不完整__  
+__小米手机1/1s刷入Google服务前，请确保系统分区已被调整至500M或以上(精简版需300M)，否则可能导致刷入失败或不完整__  
+Gapps Kitkat 20140304(精简版): <http://pan.baidu.com/share/link?shareid=435514571&uk=2703971393>  
 Gapps Kitkat 20140103(精简版): <http://pan.baidu.com/share/link?shareid=1501234268&uk=2703971393>  
 Gapps Kitkat 20131215(完整版): <http://pan.baidu.com/share/link?shareid=4088475637&uk=2703971393>  
 Google+ App单独安装版(如果其他版本fc可使用此版本): <http://pan.baidu.com/share/link?shareid=1524743924&uk=2703971393>  
