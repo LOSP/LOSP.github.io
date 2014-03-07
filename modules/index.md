@@ -3,6 +3,14 @@ layout: nodate
 title: 扩展模块
 subtitle: 只有想不到，没有做不到
 ---
+*__EverythibgTweaks__*  
+EverythingTweaks是一个能够给EverythingMe启动器添加自定义功能的模块。
+
+*1.0.0-alpha*  
+初始化版本
+
+下载[1.0.0]: <http://pan.baidu.com/share/link?shareid=597429713&uk=2703971393>
+
 *__滑动返回__*  
 
 *1.0.1*  
