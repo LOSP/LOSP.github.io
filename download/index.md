@@ -18,6 +18,8 @@ __使用方法：下载本卡刷包模板，然后将Recovery的线刷文件改�
 20131005: <http://pan.baidu.com/s/1mTBk3>  
 
 *__小米手机1全系列(1/1s/青春版/1s青春版/电信版/合约机)__*  
+RELEASE 4.3.23: <http://pan.baidu.com/s/1qWGvZv2>  
+RELEASE 4.3.9: <http://pan.baidu.com/s/1mgwQVri>  
 EXPERIMENTAL 4.3.2: <http://pan.baidu.com/s/1sjEXmDf>  
 RELEASE 4.2.12: <http://pan.baidu.com/s/1jGftvk6>  
 RELEASE 4.2.8: <http://pan.baidu.com/s/1qW0fNn2>  
