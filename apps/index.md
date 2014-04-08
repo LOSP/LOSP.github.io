@@ -11,7 +11,11 @@ subtitle: 我们不只做ROM
 *1.0.0*  
 首个公测版本
 
-下载地址: <http://pan.baidu.com/share/link?shareid=1392877065&uk=2703971393>  
+*1.0.1*
+新增 支持图标包的图标蒙板
+新增 支持图标包覆盖抽屉按钮图标
+
+下载地址: <http://pan.baidu.com/share/link?shareid=1888967274&uk=2703971393>  
 开源地址: <https://github.com/LOSP/LightLauncher>
 
 *__FlashBak__*  
