@@ -18,6 +18,7 @@ __使用方法：下载本卡刷包模板，然后将Recovery的线刷文件改�
 20131005: <http://pan.baidu.com/s/1mTBk3>  
 
 *__小米手机1全系列(1/1s/青春版/1s青春版/电信版/合约机)__*  
+EXPERIMENTAL 4.5.11: <http://pan.baidu.com/s/1nt0oAyl>  
 EXPERIMENTAL 4.4.27: <http://pan.baidu.com/s/1c0w29eo>  
 RELEASE 4.3.30: <http://pan.baidu.com/s/1ntNTNE5>  
 MIUI Recovery 2.10第二版(线刷): <http://pan.baidu.com/s/1uvji8>
