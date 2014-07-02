@@ -10,7 +10,6 @@ __小米手机1/1s刷入Google服务前，请确保系统分区已被调整至50
 Gapps Kitkat 20140304(精简版): <http://pan.baidu.com/share/link?shareid=435514571&uk=2703971393>  
 Gapps Kitkat 20140103(精简版): <http://pan.baidu.com/share/link?shareid=1501234268&uk=2703971393>  
 Gapps Kitkat 20131215(完整版): <http://pan.baidu.com/share/link?shareid=4088475637&uk=2703971393>  
-Google+ App单独安装版(如果其他版本fc可使用此版本): <http://pan.baidu.com/share/link?shareid=1524743924&uk=2703971393>  
 20130809: <http://pan.baidu.com/share/link?shareid=1975905210&uk=2703971393>
 
 *__Recovery卡刷包模板(小米系列通用)__*  
@@ -18,6 +17,7 @@ __使用方法：下载本卡刷包模板，然后将Recovery的线刷文件改�
 20131005: <http://pan.baidu.com/s/1mTBk3>  
 
 *__小米手机1全系列(1/1s/青春版/1s青春版/电信版/合约机)__*  
+EXPERIMENTAL 4.7.1: <http://www.androidfilehost.com/?fid=23501681358556252>  
 EXPERIMENTAL 4.5.31: <https://mega.co.nz/#!MNpCBZoZ!uqS179mXXxc43QQ0OytaFY6rQg5j2Uy9gIgAUCerzf4>  
 RELEASE 4.3.30: <http://pan.baidu.com/s/1ntNTNE5>  
 MIUI Recovery 2.10第二版(线刷): <http://pan.baidu.com/s/1uvji8>
