@@ -1,5 +1,5 @@
 ---
-layout: nodate
+layout: default
 title: 更新历史
 subtitle: 点点滴滴，记录成长的每一步
 ---

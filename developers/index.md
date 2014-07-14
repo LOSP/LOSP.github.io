@@ -1,15 +1,14 @@
 ---
-layout: nodate
+layout: default
 title: 开发者
-subtitle: 开源，分享，交流
 ---
 Light OpenSource Project遵循Apache License 2.0发布全部的LOSP源代码，所有开发者都可以在我们发布的源码基础上下载、适配、编译、修改。
 
 同步源码：  
 {% highlight sh %}
-repo init -u git://github.com/LOSP/platform_manifest.git -b jb43
+repo init -u git://github.com/LOSP/platform_manifest.git -b kk
 repo sync
-repo start jb43
+repo start kk
 {% endhighlight %}
 
 提交更改：  
@@ -18,12 +17,12 @@ repo start jb43
 cd /你的项目路径
 git add -A
 git commit -m "修改说明"
-git push https://github.com/你fork后的路径 jb43
+git push https://github.com/你fork后的路径 kk
 {% endhighlight %}
 然后在你的github上对我们发起pull request
 
 如何适配：  
-你的设备必须有CM10.1或Slim的device，其他4.2ROM的device也可以，但是可能需要修改的更多。  
+你的设备必须有CM11.0的device，其他4.4ROM的device也可以，但是可能需要修改的更多。  
 首先克隆你的device。  
 然后切换到设备device根目录，编辑vendorsetup.sh，修改cm_xxxx-userdebug为losp_xxxx-userdebug  
 改名cm.mk为losp.mk  

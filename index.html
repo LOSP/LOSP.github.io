@@ -1,70 +1,56 @@
 ---
 layout: index
-title: Light OpenSource Project
+title: Light Open Source Project
 ---
-    <main class="bs-masthead" id="content" role="main">
-      <div class="container">
-      <h1>Light OpenSource</h1>
-      <p class="lead">准备好了吗？<br />让我们开始一段激动人心的旅程</p>
-      <p>
-        <a href="javascript:showBlog();" class="btn btn-outline-inverse btn-lg">立即开始</a>
-      </p>
+      <div class="col-xs-12 col-sm-9">
+        {% for post in paginator.posts %}
+        {% include single.html %}
+        {% endfor %}
+        <div class="align-center">
+          <ul class="pagination">
+            {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path }}">&laquo;</a></li>
+            {% else %}
+            <li class="disabled"><a>&laquo;</a></li>
+            {% endif %}
+            {% if paginator.page <= 2 %}
+            {% if paginator.page == 1 %}
+            <li class="active"><a href="{{ site.baseurl }}">1</a></li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}">1</a></li>
+            {% endif %}
+            {% if paginator.total_pages > 2 %}
+            {% for count in (2..3) %}
+            {% if count == paginator.page %}
+            <li class="active"><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% else %}
+            {% for count in (2..paginator.total_pages) %}
+            {% if count == paginator.page %}
+            <li class="active"><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% else %}
+            {% for count in (paginator.previous_page..paginator.total_pages) limit:3 %}
+            {% if count == paginator.page %}
+            <li class="active"><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}page{{ count }}">{{ count }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% if paginator.next_page %}
+            <li><a href="#">&raquo;</a></li>
+            {% else %}
+            <li class="disabled"><a>&raquo;</a></li>
+            {% endif %}
+          </ul><!--/.pagination-->
+        </div><!--/.align-center-->
       </div>
-    </main>
-    <div class="bs-header" id="bs-header">
-      <div class="container">
-        <h1>动态</h1>
-        <p>关注我们的最新动向</p>
-      </div>
-    </div>
-    <br />
-    <div class="container bs-docs-container" id="containter">
-      <ol class="breadcrumb">
-        <li><a href="{{ site.baseurl }}">LOSP</a></li>
-        <li class="active">动态</li>
-      </ol>
-      {% for post in paginator.posts %}
-      {% include single.html %}
-      {% endfor %}
-      <ul class="pager">
-        {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path }}"><< 较早</a></li>
-        {% endif %}
-        {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path }}">较新 >></a></li>
-        {% endif %}
-      </ul>
-    </div>
-    <script type="text/javascript">
-    function showBlog() {
-        $('#content').fadeOut(500);
-        setTimeout(function(){
-            $('#bs-header').fadeIn(500);
-            // $('#containter').fadeIn(100);
-            document.getElementById('htmlbody').className = '';
-        }, 500);
-        setTimeout(function(){
-            $('#containter').fadeIn(500);
-        }, 500);
-    }
-    </script>
-    {% if paginator.page == 1 %}
-    <script type="text/javascript">
-    function run() {
-        $('#bs-header').hide();
-        $('#containter').hide();
-    }
-    window.onload = run;
-    </script>
-    {% else %}
-    <script type="text/javascript">
-    function run() {
-        $('#content').hide();
-        $('#bs-header').show();
-        $('#containter').show();
-        document.getElementById('htmlbody').className = '';
-    }
-    window.onload = run;
-    </script>
-    {% endif %}
-        
+      {% include sidebar.html %}

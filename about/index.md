@@ -1,7 +1,6 @@
 ---
-layout: nodate
+layout: default
 title: 关于
-subtitle: 我们从哪里来，又去向何处
 ---
 ![poster]({{ site.baseurl }}res/images/poster.png)
 

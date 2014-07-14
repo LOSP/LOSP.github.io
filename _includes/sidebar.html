@@ -1,0 +1,26 @@
+      <div class="col-xs-6 col-sm-3 sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>关于本站</h4>
+          <p>这里是 LOSP(Light Open Source Project) 的博客和发布地址。</p>
+        </div>
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>友情提醒</h4>
+          <p>访问本站请使用 <b>高版本</b> IE浏览器或 FireFox / Chrome</p>
+        </div>
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>近期文章</h4>
+          <ol class="list-unstyled">
+            {% for post in site.posts limit:7 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ol>
+        </div>
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>我的社交</h4>
+          <ol class="list-unstyled">
+            <li><a href="http://weibo.com/u/1789004515">新浪微博</a></li>
+            <li><a href="https://github.com/LOSP">GitHub</a></li>
+            <li><a href="https://plus.google.com/u/1/105158284914081414108">Google+</a></li>
+          </ol>
+        </div>
+      </div><!-- /.sidebar -->
