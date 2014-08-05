@@ -16,6 +16,7 @@ __使用方法：下载本卡刷包模板，然后将Recovery的线刷文件改�
 20131005: <http://pan.baidu.com/s/1mTBk3>  
 
 *__小米手机1全系列(1/1s/青春版/1s青春版/电信版/合约机)__*  
+RELEASE 4.8.5: <http://www.androidfilehost.com/?fid=23578570567723422>  
 RELEASE 4.7.10: <http://www.androidfilehost.com/?fid=23501681358560150>  
 EXPERIMENTAL 4.7.1: <http://www.androidfilehost.com/?fid=23501681358556252>  
 EXPERIMENTAL 4.5.31: <https://mega.co.nz/#!MNpCBZoZ!uqS179mXXxc43QQ0OytaFY6rQg5j2Uy9gIgAUCerzf4>  
