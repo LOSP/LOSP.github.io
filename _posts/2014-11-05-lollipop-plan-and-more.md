@@ -1,6 +1,6 @@
 ---
 title: LOSP 5.0的计划以及今后的打算
-style: default
+layout: default
 ---
 各位都知道，`Android 5.0` 即 `lollipop` 已经放出源代码。
 
